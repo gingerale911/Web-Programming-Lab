@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HEHEHEHA</title>
+    <style>
+         body {
+            margin: 0;
+            min-height: 100vh;
+            /* Sand-dune style background using multiple radial gradients */
+            background: 
+                radial-gradient(circle at 20% 40%, #f7e6c7 30%, transparent 35%),
+                radial-gradient(circle at 50% 50%, #e5c79f 30%, transparent 35%),
+                radial-gradient(circle at 80% 60%, #d4aa7d 30%, transparent 35%);
+            background-color: #f7e6c7; /* base sand color */
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex; /* left and right halves */
+            flex-direction: row;
+        }
+         /* Left half for h1 */
+        .left-half {
+            width: 50%; /* half the screen */
+            display: flex;
+            justify-content: center; /* horizontal center */
+            align-items: center; /* vertical center */
+        }
+
+        /* Right half for p */
+        .right-half {
+            width: 50%; /* half the screen */
+            display: flex;
+            justify-content: center; /* horizontal center */
+            align-items: center; /* vertical center */
+        }
+
+        h1 {
+            background-color: rgb(214, 191, 62); /* small rectangle */
+            color: white;
+            padding: 60px 40px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: center;
+            max-width: 600px;
+        }
+    </style>
+</head>>
+<body>
+    <div class="left-half">
+        <h1>Whispers in the Wind</h1>
+    </div>
+
+    <!-- Right half with paragraph -->
+    <div class="right-half">
+        <p>
+            Whispers of the wind in the <b>trees</b>, <br>
+            Dancing softly with gentle <b>ease</b>. <br>
+            Leaves flutter, birds take <b>flight</b>, <br>
+            Nature's song, pure <b>delight</b>.
+        </p>
+    </div>
+</body>
+</html>
