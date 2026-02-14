@@ -15,12 +15,12 @@
         <div class="video-gallery">
           <figure>
               <video controls poster="poster.jpg">
-                <source src="loo.mp4" type="video/mp4">
+                <source src="vid1.mp4" type="video/mp4">
               </video>
           </figure>
           <figure>
               <video controls poster="poster.jpg">
-                <source src="lo.mp4" type="video/mp4">
+                <source src="vid2.mp4" type="video/mp4">
               </video>
           </figure>
         </div>
